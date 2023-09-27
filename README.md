@@ -1,5 +1,9 @@
 # feature-deletion-robust-regression
 
+Author: Matias Kühnau 
+
+Special thanks to Akylas Stratigakos for the base code and mentoring. 
+
 Repository for resilient energy forecasting against missing features at test time.
 
 - ``FDR_regressor.py``: the main script for feature deletion-robust regression. The user specifies the selected quantile, robustness budget, and the solution method (reformulation, affinely adjustable reformulation).
@@ -32,3 +36,6 @@ See  ``requirements.txt``  for dependencies.
 - ``main_ID_trading_dual.py``: compares FDRR against a number of benchmark models for intra day trading using all features.
 
 The Preliminaries folder contains preliminary case studies. 
+
+Main research results are in Da-case, where baseline is a day-ahead case study with two price balancing. 
+No trained models are available in the repo, reach out to me for these. 
